@@ -1,0 +1,328 @@
+header.masthead {
+    height: 400px;
+    width: 100%;
+    background-image:url(../img/header.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    padding: 0;
+}
+
+
+.row{
+    margin: 0;
+}
+
+.logo_intel{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
+
+.logo_site{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+.informacoes{
+    width: 100%;
+    background-color:rgba(0,0,0,0.6);
+    padding:10px 10px;
+    position: absolute;
+    bottom:0;
+    margin: 0;
+
+}
+
+.informacoes h3{
+    color: #1ea4ab;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-transform: inherit;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.informacoes h3 span{
+    padding-left: 30px;
+}
+
+
+.cotacao{
+    background-image: url(../img/icones/email.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.telefone{
+    background-image: url(../img/icones/tel.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.whats{
+    background-image: url(../img/icones/whats.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+.inf_comercial{
+    padding:0 140px;
+}
+
+
+
+.informacoes2{
+    width: 100%;
+    background-color:#000000;
+    padding:10px 10px;
+    position: absolute;
+    bottom:0;
+}
+
+
+.category{
+    width: 160px;
+    height: auto;
+    background-color: #28d9e3;
+    padding: 20px 15px;
+    border-radius: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+
+.category p{
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bg_linha{
+    width: 50%;
+    height:60%;
+    border-right: 1px solid #28d9e3;
+}
+
+figure{
+    margin: 0 auto;
+    width: 260px;
+    height: 113px;
+}
+
+article{
+    height: 300px;
+}
+
+article p{
+    text-align: center;
+}
+
+.price{
+    font-size: 1.9em;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #28d9e3;
+}
+
+.descricao{
+    color: #727376;
+
+}
+.bg_fundo{
+    box-shadow: 1px 1px 12px #555;
+}
+
+.shadow{
+box-shadow: inset -50px 11px 100px 24px #F2F7FA,-25px 24px 1px -39px #F2F7FA;
+-webkit-box-shadow: inset -50px 11px 100px 24px #F2F7FA,-25px 24px 1px -39px #F2F7FA;
+-moz-box-shadow: inset -50px 11px 100px 24px #F2F7FA,-25px 24px 1px -39px #F2F7FA;
+-o-box-shadow: inset -50px 11px 100px 24px #F2F7FA,-25px 24px 1px -39px #F2F7FA;
+}
+
+footer{
+   
+    color: #ffffff; 
+       
+}
+
+.footer{
+     background-color:#28d9e3;
+    margin:0;width:100%;
+     border-bottom: 2px solid #7ce8ee;
+     padding-bottom: 15px;
+     padding-top: 15px;
+}
+
+.footer2{
+    background-color:#28d9e3;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.footer2 p{
+    font-size:1.9em;
+    color:#373435;
+    margin: 0;
+}
+
+.footer2 .tresVezes{
+
+}
+
+.footer2 .coluna_footer{
+    float: left;
+    margin-left: 15px;
+    color:#373435;
+    height: 70px;
+    position: relative;
+}
+
+.coluna_footer .regras{
+    position: absolute;
+    bottom:0;
+    width: 200px;
+}
+.coluna_footer .regras p{
+    font-size: 15px;
+}
+
+.coluna_footer .formas_de_pagamento{
+    height:70px;line-height: 70px;
+}
+
+
+.coluna_footer .formas_de_pagamento p{
+    font-size:35px;
+}
+
+
+
+.coluna_footer .seta{
+    height:70px;line-height: 70px;
+}
+
+
+.coluna_footer .seta p{
+    font-size:70px;
+}
+
+.coluna_footer .divisao_pagamento{
+    float:left;font-size: 70px;height:70px;line-height: 70px;
+}
+
+.coluna_footer .inf_juros{
+    float:left;height: 70px;width:120px;position: relative
+}
+
+.coluna_footer .inf_juros .top{
+    position: absolute;top: 3px;font-size: 1.5em;
+}
+
+.coluna_footer .inf_juros .bottom{
+   position: absolute;bottom:3px;font-size: 1.5em;
+}
+
+.footer p{
+    text-align: center;
+    font-size:1.5em; 
+}
+
+.footer1{
+    width: 100%;
+}
+
+.footer3{
+    background-color:#000000;
+    padding-top: 10px;
+
+}
+
+
+.footer3 h3{
+    color: #1ea4ab;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-transform: inherit;
+    text-align: center;
+    
+}
+
+.footer3 h3 span{
+    padding-left: 30px;
+}
+
+footer h3{
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.informacoes .wrapper_text{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .coluna_footer{
+        width:100%;
+    }
+
+    header.masthead {
+        height: auto;
+    }
+
+    .informacoes{
+        position: relative;
+    }
+
+    .logo_intel {
+    position: unset;
+    }
+
+    .coluna_footer .seta{
+        display: none;
+    }
+}
+
+@media(max-width:1400px){
+    .informacoes h3 {
+    font-size: 1.3em;
+ 
+}
+
+ .footer3 h3 {
+    font-size: 1.3em;
+ 
+}
+
+}
+
+@media(max-width:600px){
+      .informacoes h3 {
+    font-size: 1.0em;
+ 
+}
+
+.telefone {
+    background-size: contain;
+}
+
+.cotacao{
+ background-size: contain;   
+}
+.whats{
+ background-size: contain;      
+}
+
+ .footer3 h3 {
+    font-size: 1.0em;
+ 
+}
+}
+
+
