@@ -17,7 +17,7 @@ use App\Categoria;
 
 Route::get('/', function () {
     return view('inicial')->with(['categorias'=>Categoria::with('produtos')->get()]);
-});
+})->name('site');
 
 
 
@@ -40,5 +40,6 @@ Route::post('/produtos/insert','ProdutoController@insert')->name('produto.salvar
 
 Route::get('/categorias', 'CategoriaController@index')->name('categoria');
 Route::get('/categorias/cadastro', 'CategoriaController@cadastro')->name('categoria.cadastro');
+Route::get('/categorias/remove/{id?}', 'CategoriaController@remove')->name('categoria.remove');
 Route::post('/categorias/insert', 'CategoriaController@insert')->name('categoria.insert');
 

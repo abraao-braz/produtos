@@ -74,6 +74,11 @@ header.masthead {
     padding:0 140px;
 }
 
+.iconDash{
+    font-size: 25px !important;
+}
+
+
 
 
 .informacoes2{
@@ -96,11 +101,12 @@ header.masthead {
 
 }
 
-.category p{
+.category h1{
     line-height: 100px;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    text-transform: none;
 }
 
 .bg_linha{

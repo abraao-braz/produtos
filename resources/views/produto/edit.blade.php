@@ -18,7 +18,29 @@
     <div class="row">
         <div class="container">
 
-             <div class="jumbotron"><h2>Cadastro de produtos</h2></div>
+             
+               <div class="row"> 
+               <div class="col-sm-4">
+                <img width="200" src="/img/icones/logo_safety_degrade.png" class="img-responsive">   
+               </div>
+               <div class="col-sm-8">
+                <h2></h2>   
+               </div>
+               </div>
+                
+            
+
+            <div class="col-sm-12">
+                 <div class="col-sm-6">
+                <a class="iconDash" style="font-size: 25px" href="{{ route('home') }}"><i class="fa fa-cogs" aria-hidden="true">&nbsp;Dashboard</i></a>&nbsp;&nbsp;&nbsp;<a class="iconDash" style="font-size: 25px;" href="{{ route('site') }}"><i class="fa fa-home" aria-hidden="true">&nbsp;Home do site</i></a>
+                 </div>
+                 <div class="col-sm-6"></div>
+             </div>
+
+             <div class="col-sm-12">
+                 <h1>Editar Produto</h1>
+             </div>
+
 
             <form action="/produtos/edit/{{$id}}" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">

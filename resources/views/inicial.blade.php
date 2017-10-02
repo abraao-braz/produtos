@@ -81,7 +81,7 @@
 
     <div class="col-sm-12 col-md-2 col-lg-2">
         <div class="category">
-            <p>{{$categoria->descricao}}</p>
+            <h1>{{$categoria->descricao}}</p>
         </div>
         <div class="bg_linha"></div>
     </div>
@@ -94,7 +94,7 @@
                 <article>
                     <header>
                         <figure>
-                            <img src="/{{$produto->url_imagem}}" alt="">
+                            <img src="/{{$produto->url_imagem}}" width="260" height="113" alt="">
                         </figure>
                     </header>
 
